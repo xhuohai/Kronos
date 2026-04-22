@@ -1,0 +1,4 @@
+total_files=500
+coverage_trade_window=0.6400
+coverage_exit_window=0.9980
+joint_coverage=0.6400
