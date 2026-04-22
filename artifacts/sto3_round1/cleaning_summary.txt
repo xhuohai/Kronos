@@ -1,0 +1,4 @@
+files=500
+rows_total=85556
+rows_clean_ok=85556
+clean_success_rate=1.0000

@@ -1,0 +1,16 @@
+assumption_version: daily_train_minute_backtest_filtered
+training_data: daily_alt_dataset
+backtest_data: minute_filtered_complete_windows_only
+coverage_gate:
+  trade_window: ['14:50:00', '15:00:00']
+  exit_window: ['09:30:00', '10:30:00']
+  require_joint: true
+selection:
+  topk: 10
+  signal: kronos
+execution:
+  buy_window: ['14:50:00', '14:57:00']
+  sell_window: ['09:30:00', '10:30:00']
+costs:
+  include_fees: true
+  include_stamp_duty: true

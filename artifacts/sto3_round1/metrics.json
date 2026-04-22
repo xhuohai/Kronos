@@ -1,0 +1,17 @@
+{
+  "assumption_version": "daily_train_minute_backtest_filtered",
+  "data_coverage_summary": {
+    "coverage_trade_window": 0.64,
+    "coverage_exit_window": 0.998,
+    "joint_coverage": 0.64,
+    "sample_files": 500,
+    "notes": "sequential sampling bias; many morning-only rows in selected slice"
+  },
+  "cleaning_summary": {
+    "files": 500,
+    "rows_total": 85556,
+    "rows_clean_ok": 85556,
+    "clean_success_rate": 1.0
+  },
+  "artifact_scope": "visibility sync package for STO-3 round1"
+}
